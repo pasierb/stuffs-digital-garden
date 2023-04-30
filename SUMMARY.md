@@ -9,7 +9,7 @@
 
 ***
 
-* [🛠 Tools](tools/README.md)
+* [⛏ Tools](tools/README.md)
   * [1password](tools/1password.md)
   * [GitBook](tools/gitbook.md)
   * [Make](tools/make.md)
