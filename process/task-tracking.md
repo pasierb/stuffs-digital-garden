@@ -17,6 +17,13 @@ What I like about it:
 * API
 * Integrations with other tools, e.g. [Make](../tools/make.md)
 
+## Reminders
+
+I use [Make](../tools/make.md) to create automation which:
+
+1. queries tasks database in [Notion](../tools/notion.md) for upcoming tasks to complete
+2. send a daily [Slack](../tools/slack.md) message to notify me about upcomming deadlines
+
 ## Work
 
 At work I also use "table/database" application to manage tasks - [Google tables](https://support.google.com/area120-tables/answer/10831919).

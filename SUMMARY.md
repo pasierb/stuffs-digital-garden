@@ -13,3 +13,4 @@
 * [GitBook](tools/gitbook.md)
 * [Make](tools/make.md)
 * [Notion](tools/notion.md)
+* [Slack](tools/slack.md)
