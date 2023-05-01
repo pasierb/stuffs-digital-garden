@@ -1,11 +1,10 @@
+---
+layout: editorial
+---
+
 # Dart: late + final = easy and safe caching
 
-Let's say You have a `Person` class and You want to expose `netWorth` field.
-There is a backend API to fetch it but it's pretty expensive.
-Backend needs to call all associated bank APIs, convert currencies, calculate real estate values, etc.
-Here's how to use new `late` variables feature to implement easy and safe caching.
-
-<!--more--> 
+Let's say You have a `Person` class and You want to expose `netWorth` field. There is a backend API to fetch it but it's pretty expensive. Backend needs to call all associated bank APIs, convert currencies, calculate real estate values, etc. Here's how to use new `late` variables feature to implement easy and safe caching.
 
 ## Naive approach
 
@@ -37,8 +36,7 @@ class Person {
 // await person.netWorth()
 ```
 
-There is an open question hanging in the air: why `netWorth` is `Future<num>` and not simply `num`?
-We could have some initialization function that could resolve the future, right?
+There is an open question hanging in the air: why `netWorth` is `Future<num>` and not simply `num`? We could have some initialization function that could resolve the future, right?
 
 I'm not a fan of such initialization functions because it creates unnecesarry dependency that can quickly become unmanagable.
 
@@ -48,18 +46,15 @@ What if we need only one not the other? Should we have two init functions? Or ma
 
 Futures are cheap and I like the explicit contract that we expose. Consumer of our class knows from the get-go that this value has some cost.
 
-Ok, now we cached the result (or rather Future of the result) so we don't make the expensive call again.
-There is not much more we can do in terms of resource optimisation, but we can optimise the code a bit - we can get rid of the intermidiate `_fetchNetWorthFuture` variable.
+Ok, now we cached the result (or rather Future of the result) so we don't make the expensive call again. There is not much more we can do in terms of resource optimisation, but we can optimise the code a bit - we can get rid of the intermidiate `_fetchNetWorthFuture` variable.
 
-## late + final 
+## late + final
 
 With introduction of sound null-safty we got access to [`late`](https://dart.dev/null-safety/understanding-null-safety#late-variables) keyword. `late` allows us to take responsibility of nullness of the value. It's like telling compiler "trust me, the value will be there when I use it".
 
 > The late modifier has some other special powers too. It may seem paradoxical, but you can use late on a field that has an initializer:
-[^1]
 
-Possibility to have initializer on `late` variables allows us to get rid of intermidiate `_fetchNetWorthFuture` variable.
-Slapping `final` gives us compilte time guarantee that the variable will be assigned only once.
+Possibility to have initializer on `late` variables allows us to get rid of intermidiate `_fetchNetWorthFuture` variable. Slapping `final` gives us compilte time guarantee that the variable will be assigned only once.
 
 ```dart
 class Person {
@@ -69,5 +64,3 @@ class Person {
 
 // await person.netWorth
 ```
-
-[^1]: https://dart.dev/null-safety/understanding-null-safety#lazy-initialization
