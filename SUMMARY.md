@@ -17,3 +17,4 @@
   * [Slack](tools/slack.md)
 * [📔 Notes](notes/README.md)
   * [Controlling social media consumption](notes/controlling-social-media-consumption.md)
+  * [How I got to Google](notes/how-i-got-to-google.md)
