@@ -18,4 +18,5 @@
 * [📔 Notes](notes/README.md)
   * [Controlling social media consumption](notes/controlling-social-media-consumption.md)
   * [How I got to Google](notes/how-i-got-to-google.md)
+  * [I'm quitting alcohol for a year](notes/im-quitting-alcohol-for-a-year.md)
   * [Dart: late + final = easy and safe caching](notes/dart-late-+-final-easy-and-safe-caching.md)
