@@ -1,3 +1,7 @@
+---
+layout: editorial
+---
+
 # Controlling social media consumption
 
 ## Context

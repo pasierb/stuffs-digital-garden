@@ -1,15 +1,18 @@
-# How I got to Google as a self-taught software engineer
+---
+layout: editorial
+---
+
+# How I got to Google
 
 Landing a SWE job at Google is no easy feat. Being self-taught seemingly hinders one’s chances, but how about adding to it:
 
-*   being thirty-something years old (closer to 40 than 30 😅)
-*   having wife, small kid and a dog
-*   being only source of income for family
+* being thirty-something years old (closer to 40 than 30 😅)
+* having wife, small kid and a dog
+* being only source of income for family
 
 FAANG interviews are notoriously difficult. Good news is that if I could do it, so can you! Here are some battle-tested tips how to prepare.
 
-How to study
-------------
+## How to study
 
 In my circumstances time I could spent on learning was pretty limited. Full time job, small kid, wife – there is not much time and energy left in a day.
 
@@ -21,37 +24,35 @@ What changed my approach was to stop thinking about prepping to “the interview
 
 I would do 30-60 mins daily sessions and that was a game changer. Not only I had more energy for my family, but it also learned at higher pace. Having shorter sessions allowed me digest the material better, think about it throughout the day and make it stick to brain’s long-term memory.
 
-Know your basics
-----------------
+## Know your basics
 
-Think about it as your tools. You need to have them handy and know how to use them. In 30-40 mins that you have to solve a problem(s) there is no time to figure out how BFS, DFS, <you name it> works – you HAVE TO have this knowledge available to you at will.
+Think about it as your tools. You need to have them handy and know how to use them. In 30-40 mins that you have to solve a problem(s) there is no time to figure out how BFS, DFS, works – you HAVE TO have this knowledge available to you at will.
 
 Must know topics IMO in no particular order:
 
 ### Data structures:
 
-*   Linked lists
-*   Arrays
-*   Maps
-*   Sets
-*   Trees / Graphs / Tries (this tend to very useful)
-*   Heaps
+* Linked lists
+* Arrays
+* Maps
+* Sets
+* Trees / Graphs / Tries (this tend to very useful)
+* Heaps
 
 ### Algorithms
 
-*   basic sorting algorithms
-*   Dijkstra’s algorithm – a lot of interview problems are some sort of variations
-*   backtracking
-*   dynamic programming
-*   tree traversal (DFS, BFS)
+* basic sorting algorithms
+* Dijkstra’s algorithm – a lot of interview problems are some sort of variations
+* backtracking
+* dynamic programming
+* tree traversal (DFS, BFS)
 
-Practice
---------
+## Practice
 
 I distinguish two phases of practice:
 
-1.  Basics
-2.  Problem solving
+1. Basics
+2. Problem solving
 
 ### Basics
 
@@ -67,12 +68,11 @@ This might be a bit controversial, but I believe that you either know the soluti
 
 Start with easy problems, get comfortable. When it’s getting to comfortable start moving to medium difficulty. Up the ante enough to keep you engaged but not discouraged. If you’re stuck for more than 15 minutes, then just read the solution – that’s how you learn!
 
-Once you’re fairly comfortable with coding up the solutions… stop coding. Solve it in your head and check answers in forums to verify. My rule of thumb was no more than 10 minutes per question. Again, if you can’t solve it  just lookup the solution, try to understand it and move on – chances are you will encounter this question again.
+Once you’re fairly comfortable with coding up the solutions… stop coding. Solve it in your head and check answers in forums to verify. My rule of thumb was no more than 10 minutes per question. Again, if you can’t solve it just lookup the solution, try to understand it and move on – chances are you will encounter this question again.
 
 This approach should develop in You some intuition what data structures to use, what kind of algorithm problem lends itself to. You will rather not encounter the same question in the interview, but it might be similar.
 
-During interview
-----------------
+## During interview
 
 ### Think out loud
 
@@ -86,32 +86,29 @@ Before You start writing code you have to have clear picture how to arrive at so
 
 ### Use helper functions
 
-Focus on high level solution first using helper functions and fill them out later. For example: if you have algorithms that need topological sort, just write it as you would have it – \`topologicalSort(items)\` – and tell your interviewer that you will implement it later. Here it’s important that you know your basics and can identify time/space complexity  for those helpers so interviewer feels confident that you know how to implement it.
+Focus on high level solution first using helper functions and fill them out later. For example: if you have algorithms that need topological sort, just write it as you would have it – \`topologicalSort(items)\` – and tell your interviewer that you will implement it later. Here it’s important that you know your basics and can identify time/space complexity for those helpers so interviewer feels confident that you know how to implement it.
 
 It is possible that interviewer will get enough signals and you won’t have to fill in those helper functions. The key point here is to have complete algorithm in time. Chances are that there is a follow up question and your helpers become irrelevant anyways.
 
-Just try!
----------
+## Just try!
 
 Let’s face it, chances that you will nail it in first try are slim. Why not get some practice then? Apply early and see where you stand. Don’t get me wrong – try your best, prepare like your life depends on it, but keep in mind that it may not be your last time applying 😉 I applied to all FAANG companies and others known to have similar interview process, just to get some reps in. Even if you apply to company that is not you first choice you might ended up getting hard to reject offer (BTW that’s how I ended up at Amazon in Berlin).
 
 There is a lot of stress involved and you will forget about details so take notes about the process:
 
-*   what questions were you asked
-*   what worked and what not
-*   what areas to focus next time
+* what questions were you asked
+* what worked and what not
+* what areas to focus next time
 
 It will come handy next time, trust me.
 
-Final thoughts
---------------
+## Final thoughts
 
 It’s not easy, but it’s doable. Treat it as a marathon, not a sprint. If you think about the whole thing as a means to become better software engineer, with a possible side effect of landing your dream job it will become easier and pay dividends in your career regardless of the outcome.
 
-Resources
----------
+## Resources
 
-*   [Grokking the Coding Interview: Patterns for Coding Questions](https://www.educative.io/courses/grokking-the-coding-interview) – great place to start
-*   [LeetCode](https://leetcode.com/problemset/algorithms/) – hands down best practice platform
-*   [Abdul Bari’s youtube channel](https://www.youtube.com/channel/UCZCFT11CWBi3MHNlGf019nw) – some more advanced topics for curious ones
-*   [AlgoExpert](https://www.algoexpert.io/product) – easy to follow, worth the money
+* [Grokking the Coding Interview: Patterns for Coding Questions](https://www.educative.io/courses/grokking-the-coding-interview) – great place to start
+* [LeetCode](https://leetcode.com/problemset/algorithms/) – hands down best practice platform
+* [Abdul Bari’s youtube channel](https://www.youtube.com/channel/UCZCFT11CWBi3MHNlGf019nw) – some more advanced topics for curious ones
+* [AlgoExpert](https://www.algoexpert.io/product) – easy to follow, worth the money
