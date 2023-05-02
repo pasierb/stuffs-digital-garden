@@ -2,6 +2,7 @@
 
 * [Start here](README.md)
 * [📔 Notes](notes/README.md)
+  * [Disconnecting from work](notes/disconnecting-from-work.md)
   * [Controlling social media consumption](notes/controlling-social-media-consumption.md)
   * [I'm quitting alcohol for a year](notes/im-quitting-alcohol-for-a-year.md)
   * [My 2022 in Review](notes/my-2022-in-review.md)
