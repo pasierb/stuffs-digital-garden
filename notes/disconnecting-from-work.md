@@ -1,3 +1,7 @@
+---
+layout: editorial
+---
+
 # Disconnecting from work
 
 ## Phone
