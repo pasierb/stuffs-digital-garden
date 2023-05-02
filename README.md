@@ -12,7 +12,7 @@ You can find here:
 
 My name is Michał (pronounced "me-how"[^1]) Pasierbski.&#x20;
 
-<figure><img src=".gitbook/assets/me-wheel-web (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Michal (1) (2).jpg" alt="" width="375"><figcaption></figcaption></figure>
 
 I'm a software engineer (currently at Google). I work with web technologies for over 10 years now - still remember discussions whether to use jQuery or Prototype, CoffeeScript and Ruby on Rails as a new kid on the block 👴.
 
