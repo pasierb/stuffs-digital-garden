@@ -15,6 +15,7 @@
   * [☑ Task tracking](process/task-tracking.md)
 * [⛏ Tools](tools/README.md)
   * [1password](tools/1password.md)
+  * [Chrome browser](tools/chrome-browser.md)
   * [GitBook](tools/gitbook.md)
   * [Make](tools/make.md)
   * [Notion](tools/notion.md)
